@@ -28,29 +28,31 @@
     height: 90px;
 }
 
-#name {
+/* name in nav bar */
+.navbar-light .navbar-brand {
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background:#4aaaa5;
-    width: 200px;
-    height: 90px;
+    width: 230px;
+    height: 70px;
     margin-top: 0;
-    margin-left: 50px;
+    margin-left: 220px;
     color:white;
-    padding: 30px 0;
+    padding-top: 16px;
     float: left;
     font-size: 28px;
 }
 
-#links {
+/* links in nav bar */
+.navbar-nav {
     list-style-type: none;
-    margin-top: 18px;
-    margin-right: 50px;
-    padding: 0;
+    margin-left: 440px;
     overflow: hidden;
     float: right;
-    font-size: 20px;
+    font-size: 22px;
 }
 
-li {
+/* li {
     float: left;
 }
 
@@ -60,15 +62,15 @@ li a {
     text-align: center;
     padding: 20px;
     text-decoration: none;
-}
+} */
 
 li a:hover {
-    background: #fff8fb;
+    background: #ebc9d8;
     color: black;
 }
 
 h2 {
-    margin-left: 40px;
+    margin-left: 22px;
     font-size: 28px;
     float: left;
     color: #4aaaa5;
@@ -145,7 +147,7 @@ img {
     margin: auto;
 }
 
-.portfoliomain {
+.container {
     background-color:white;
     width: 1000px;
     height: 800px;
@@ -154,9 +156,9 @@ img {
     line-height: 26px;
 }
 
-.portfolio {
+/* .container2 {
     float: left;
-}
+} */
 
 p {
     text-align: left;
@@ -167,7 +169,7 @@ form {
     height: 600px;
     text-align: left;
     margin: auto;
-    /* padding-left: 70px; */
+    padding-left: 70px;
 }
 
 #text {
