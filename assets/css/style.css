@@ -133,6 +133,13 @@ img {
     margin: 0px 15px 5px 0;
 }
 
+.img-fluid {
+    max-width: 35%;
+    height: auto;
+    float: left;
+    margin: 0px 15px 5px 0;
+}
+
 #bio {
     background-color:white;
     width: 1000px;
